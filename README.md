@@ -32,7 +32,7 @@ This is the process used to create that project:
 - [x] Attach geolocation data to every clap
 - [ ] Allow users to select their own location from a map
 - [x] Display all claps on a map
-- [x] Username functionality
+- [x] Username functionality using cookies
 - [ ] Like button (stretch goal)
 
 ##How can you run this project?
