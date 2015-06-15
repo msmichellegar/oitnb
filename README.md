@@ -13,7 +13,7 @@ This is a twitter clone purpose-built for talking about Orange is the New Black 
 
 ## Why?
 
-
+Because we're good moral people who don't want to spoil the rest of the world.
 
 ## How is this built?
 
