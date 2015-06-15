@@ -1,7 +1,7 @@
 
-# Canary
+# OITNB Spoiler Twitter
 
-## What is Canary?
+## What is this?
 
 [![Build Status](https://travis-ci.org/jmnr/canary.png?branch=master)](https://travis-ci.org/jmnr/canary)
 [![Code Climate](https://codeclimate.com/repos/556de8356956802d2500a1d3/badges/7f0d8ea976928c1f8e0b/gpa.svg)](https://codeclimate.com/github/jmnr/canary)
@@ -9,15 +9,17 @@
 [![Dependency Status](https://david-dm.org/jmnr/canary.svg)](https://david-dm.org/jmnr/canary)
 [![devDependency Status](https://david-dm.org/jmnr/canary/dev-status.svg)](https://david-dm.org/jmnr/canary#info=devDependencies)
 
-Canary is a code bragging community, built by four students at [Founders & Coders London](http://foundersandcoders.org/). Users are invited to brag to Canary about their coding triumphs and receive virtual applause for their breakthrough.
+This is a twitter clone purpose-built for talking about Orange is the New Black with spoilers.
 
-## Why are we building Canary?
+## Why?
 
-We're building Canary as a learning exercise in using Node.js for large-scale projects, as well as to provide a lifeline for needy coders in search of validation.
 
-## How is Canary built?
 
-We followed these steps to build Canary:
+## How is this built?
+
+This project is forked from the [Canary twitter clone](http://canaryapp.herokuapp.com) built at Founders & Coders London. That project was built as an exercise in using Node.js on a large scale.
+
+This is the process used to create that project:
 
 - [x] Make Create, Read and Delete (CR-D) endpoints
 - [x] Store tweets as JSON in memory (now obsolete, as we're using Redis)
@@ -31,16 +33,16 @@ We followed these steps to build Canary:
 - [ ] Allow users to select their own location from a map
 - [x] Display all claps on a map
 - [x] Username functionality
-- [ ] "Impressed" button
+- [ ] Like button (stretch goal)
 
-##How can you run Canary?
+##How can you run this project?
 
 You will need to have node.js, nodemon and redis installed, plus a basic understanding of git and your terminal to get this working.
 
 ### 1. Clone the repo
 
 ```sh
-git clone https://github.com/jmnr/canary.git
+git clone https://github.com/msmichellegar/oitnb.git
 ```
 
 ### 2. Install the node.js dependencies:
