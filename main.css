@@ -5,10 +5,10 @@
 }*/
 
 body {
-  background: #ffff00;
-  background-attachment: fixed;
+  background: #ff5500;
+  /*background-attachment: fixed;
   background-image: url('images/canaryBackground.png');
-  background-size: cover;
+  background-size: cover;*/
   font-family: 'Source Sans Pro', sans-serif;
 }
 
