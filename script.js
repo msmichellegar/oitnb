@@ -121,18 +121,6 @@
     });
   });
 
-  $('#toFeed').click(function() {
-    $("#mapContainer").fadeOut("slow", function() {
-      $("#clapContainer").fadeIn("slow");
-    });
-  });
-
-  $('#toMap').click(function() {
-    $("#clapContainer").fadeOut("slow", function() {
-      $("#mapContainer").fadeIn("slow");
-    });
-  });
-
   $('body').on('click','.hashClick', function() {
     var tag = $(this).text();
 
