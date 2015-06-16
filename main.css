@@ -202,6 +202,10 @@ textarea {
     width: 300px;
   }
 
+  #submitUsername {
+    padding: 0 3px;
+  }
+
   .clap {
     min-height: 75px;
     max-width: 300px;
