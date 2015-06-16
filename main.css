@@ -106,11 +106,6 @@ textarea {
   width: 400px;
 }
 
-#inputMap {
-  display: none;
-  height: 200px;
-}
-
 .inputButtons {
   background: black;
   border: 1px solid #101010;
@@ -145,44 +140,14 @@ textarea {
   cursor:pointer;
 }
 
-/*carousel buttons*/
-
-#tabControlsDiv {
-  text-align: center;
-}
-
-.tabButtons {
-  background: black;
-  border: 1px solid #101010;
-  color: white;
-  display: inline-block;
-  font-size: 14px;
-  height: 30px;
-  width: 100px;
-}
-
-.tabButtons:hover {
-  background: #ffff00;
-  color: black;
-  cursor:pointer;
-}
-
-#toMap
-  background: #ffff7e;
-  color: black;
-}
-
 /*carousel content*/
 
 #clapContainer {
   display: block;
+  position: relative;
 }
 
-#mapContainer {
-  height: 180px;
-  margin: 20px;
-  padding: 200px;
-}
+
 
 /*claps*/
 
@@ -196,8 +161,9 @@ textarea {
   display: block;
   min-height: 75px;
   padding: 10px;
-  width: 400px;
+  position: absolute;
   margin: 20px auto;
+  width: 400px;
   word-wrap: break-word;
 }
 
