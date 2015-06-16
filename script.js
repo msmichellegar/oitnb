@@ -11,7 +11,7 @@
     $("#episodeInfo").children().hide();
     $("#usernameContainer").hide();
     $("#newClap").hide();
-    $("#clapContainer").hide();
+    // $("#clapContainer").hide();
 
     if(needsUsername()) {
       $("#usernameContainer").fadeIn("slow");
