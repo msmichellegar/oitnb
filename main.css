@@ -122,7 +122,6 @@ textarea {
 
 #clearUsernameButton {
   margin-bottom: 10px;
-  width: 170px;
 }
 
 #submitButton {
@@ -200,10 +199,6 @@ textarea {
   #newClapInput {
     height: 75px;
     width: 300px;
-  }
-
-  #submitUsername {
-    padding: 0 3px;
   }
 
   .clap {
