@@ -144,7 +144,6 @@ textarea {
 
 #clapContainer {
   display: block;
-  position: relative;
 }
 
 
@@ -161,8 +160,8 @@ textarea {
   display: block;
   min-height: 75px;
   padding: 10px;
-  position: absolute;
   margin: 20px auto;
+  resize: none;
   width: 400px;
   word-wrap: break-word;
 }
