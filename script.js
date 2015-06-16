@@ -49,13 +49,12 @@
 
 
   $('#submitButton').click(function() {
+    console.log("hello");
     if($('#newClapInput').val().length > 0) {
         var clapData = {
           userId: document.cookie.split("userId=").pop().split(";").shift(),
           username: document.cookie.split("username=").pop().split(";").shift(),
-          message: $('#newClapInput').val(),
-          lat: geolatitude,
-          lon: geolongitude
+          message: $('#newClapInput').val()
         };
 
         $.post( '/addClap', JSON.stringify(clapData), function(data) {
