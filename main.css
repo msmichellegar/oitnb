@@ -5,7 +5,7 @@
 }*/
 
 body {
-  background: #ff5500;
+  background: #f36802;
   /*background-attachment: fixed;
   background-image: url('images/canaryBackground.png');
   background-size: cover;*/
@@ -18,10 +18,28 @@ body {
   padding: 50px;
 }
 
+#firstVisible {
+  text-align: center;
+}
+
+#firstVisible > h1 {
+  text-align: center;
+}
+
+#firstVisible > img {
+  cursor: pointer;
+  display: inline-block;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
 /*logo*/
 
 #header {
-  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 #header > img {
@@ -61,8 +79,8 @@ body {
 }
 
 #submitUsername:hover {
-  background: #ffff00;
-  color: black;
+  background: #f36802;
+  color: white;
   cursor:pointer;
 }
 
@@ -102,20 +120,9 @@ textarea {
 }
 
 .inputButtons:hover {
-  background: #ffff00;
-  color: black;
+  background: #f36802;
+  color: white;
   cursor:pointer;
-}
-
-#locationButtonOne {
-  display:inline-block;
-  margin-bottom: 10px;
-  width: 150px;
-}
-
-#locationButtonTwo {
-  display: none;
-  width: 150px;
 }
 
 #clearUsernameButton {
@@ -124,9 +131,9 @@ textarea {
 }
 
 #submitButton {
-  background: #ffff00;
+  background: #f36802;
   border: 1px solid #101010;
-  color: black;
+  color: white;
   font-size: 14px;
   height: 40px;
   width: 100px;
@@ -217,6 +224,12 @@ textarea {
   }
 
   #header > img {
+  }
+
+  #firstVisible > img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   #newClapInput {

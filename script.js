@@ -5,20 +5,24 @@
   var userId;
   var username;
   var socket;
-  var markerCoords;
-  var mapLoaded = false;
 
   $(document).ready(function () {
+    // $("#notImmediatelyVisible").children().hide();
+    $("#episodeInfo").children().hide();
     $("#usernameContainer").hide();
     $("#newClap").hide();
     $("#clapContainer").hide();
-    // $("#mapContainer").hide();
 
     if(needsUsername()) {
       $("#usernameContainer").fadeIn("slow");
     } else {
       $("#newClap").fadeIn("slow");
     }
+  });
+
+  $('#seasonOne').click(function() {
+    console.log("hey");
+    $("#seasonOneEps").slideDown();
   });
 
   window.onload = function () {
@@ -65,20 +69,6 @@
       } else {
         alert("Provide your egotistical ramblings in the text box.");
       }
-  });
-
-
-  //// map load listener
-  hub.listen("main map loaded", function() {
-    $.get('/allClaps', function(data) {
-      var claps = JSON.parse(data);
-      var clapLoad = claps.length > 50 ? 50 : claps.length;
-      for(var i = 0 ; i < clapLoad; i++) {
-        hub.emit("new clap", claps[i]);
-      }
-      mapLoaded = true;
-      $("#mapContainer").fadeIn("slow");
-    });
   });
 
   $('#submitUsername').click(function() {
